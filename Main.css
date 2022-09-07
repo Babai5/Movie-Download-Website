@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("bg11.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* navigation bar customization start here */
+header {
+    width: 82vw;
+    background-color: rgba(0, 0, 0, 0.753);
+    margin: 10px auto;
+    
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+    padding: 0 10px 0 6px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    padding: 10px 10px 10px 0;
+    font-weight: 600;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 28vw;
+    height: 30px;
+    border: 1px solid;
+    /* border-radius: 5px 0 0 5px; */
+    margin: 0 0 0 3vw;
+    padding: 0 12px;
+    background-color: rgba(155, 154, 154, 0.075);
+    color: rgba(255, 255, 255, 0.808);
+    /* font-size: 15px; */
+
+}
+
+.search button {
+    /* font-weight: 600; */
+    width: 2vw;
+    height: 32px;
+    border: 1px solid rgb(255, 255, 255, 0.808);
+    border-radius: none;
+    margin-right: 3vw;
+    cursor: pointer;
+background-color: rgba(255, 255, 255, 0.808);
+}
+
+
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+hr {
+    height: 20px;
+}
+
+
+
+
+
+
+/* body main content start here */
+main {
+    width: 82vw;
+    height: auto;
+    margin: auto;
+    background-color: rgba(17, 0, 255, 0);
+}
+
+/* slider image starts here */
+.slider {
+    overflow: hidden;
+
+}
+
+.slider img {
+    width: 82vw;
+}
+
+/* Container card starts here  */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    /* display: flex; */
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 300px;
+    height: 420px;
+
+}
+.card img:hover {
+    width: 305px;
+    height: 425px;
+
+}
+
+.topic{
+    width: 280px;
+    color: white;
+    margin: 10px;
+
+
+}
+.topic a{
+    text-decoration: none;
+    color: white;
+}
+
+.topic a:hover{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.date{
+    width: 280px;
+    color: rgba(255, 255, 255, 0.541);
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* footer starts here  */
+footer {
+    display: flex;
+    height: 80px;
+    width: 82vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.copyright {
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
